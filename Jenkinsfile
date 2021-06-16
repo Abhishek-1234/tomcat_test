@@ -6,8 +6,6 @@ pipeline{
       steps{
         echo 'This is build stage'
         bat 'Build.bat'
-        javac JavaFile.java
-        java JavaFile
       }
     }
     stage('Test'){

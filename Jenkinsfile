@@ -21,6 +21,12 @@ pipeline{
         bat 'Deploy.bat'
       }
     }
+    stage('End'){
+      steps{
+        echo 'This is end stage'
+        bat 'End.bat'
+      }
+    }
   }
 
 }

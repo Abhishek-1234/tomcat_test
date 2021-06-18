@@ -1,3 +1,3 @@
-echo 'This is new build.bat file'
+echo 'This is updated build.bat file'
 javac JavaFile.java
 java JavaFile
